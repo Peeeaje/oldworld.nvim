@@ -59,7 +59,7 @@ return {
     ["@markup.list"] = { fg = p.subtext4, bold = true },
     ["@markup.list.checked"] = { fg = p.subtext4 },
     ["@markup.list.unchecked"] = { fg = p.subtext4 },
-    ["@markup.raw.block"] = { fg = p.subtext4 },
+    ["@markup.raw.block"] = { fg = p.subtext2 },
     ["@markup.raw.delimiter"] = { fg = p.subtext4 },
     ["@markup.quote"] = { fg = p.subtext1 },
     ["@markup.list.checked.markdown"] = { fg = p.green },
