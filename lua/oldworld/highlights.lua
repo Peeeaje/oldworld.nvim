@@ -24,6 +24,7 @@ local integrations_highlights = {
     rainbow_delimiters = require("oldworld.groups.integrations.rainbow_delimiters"),
     telescope = require("oldworld.groups.integrations.telescope"),
     treesitter = require("oldworld.groups.integrations.treesitter"),
+    mini = require("oldworld.groups.integrations.mini"),
 }
 local integrations = {}
 
