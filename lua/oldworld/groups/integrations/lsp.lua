@@ -41,10 +41,10 @@ return {
     DiagnosticWarn = { fg = p.yellow },
     DiagnosticInfo = { fg = p.purple },
     DiagnosticHint = { fg = p.cyan },
-    DiagnosticUnderlineError = { fg = p.red, underline = true },
-    DiagnosticUnderlineWarn = { fg = p.yellow, underline = true },
-    DiagnosticUnderlineInfo = { fg = p.purple, underline = true },
-    DiagnosticUnderlineHint = { fg = p.cyan, underline = true },
+    DiagnosticUnderlineError = { fg = p.red, undercurl = true },
+    DiagnosticUnderlineWarn = { fg = p.yellow, undercurl = true },
+    DiagnosticUnderlineInfo = { fg = p.purple, undercurl = true },
+    DiagnosticUnderlineHint = { fg = p.cyan, undercurl = true },
 
     -- Neovim's built-in language server client
     LspReferenceWrite = { fg = p.purple, underline = true },
