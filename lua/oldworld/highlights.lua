@@ -16,6 +16,7 @@ local integrations_highlights = {
     lsp = require("oldworld.groups.integrations.lsp"),
     markdown = require("oldworld.groups.integrations.markdown"),
     mason = require("oldworld.groups.integrations.mason"),
+    mini = require("oldworld.groups.integrations.mini"),
     navic = require("oldworld.groups.integrations.navic"),
     neo_tree = require("oldworld.groups.integrations.neo_tree"),
     neorg = require("oldworld.groups.integrations.neorg"),
@@ -25,6 +26,7 @@ local integrations_highlights = {
     telescope = require("oldworld.groups.integrations.telescope"),
     treesitter = require("oldworld.groups.integrations.treesitter"),
     mini = require("oldworld.groups.integrations.mini"),
+    illuminate = require("oldworld.groups.integrations.illuminate"),
 }
 local integrations = {}
 
@@ -49,6 +51,9 @@ function M.setup()
             load_highlights(plugin.highlights)
         end
     end
+
+    load_highlights(config.highlight_overrides)
+
     if config.terminal_colors then
         terminal.setup()
     end

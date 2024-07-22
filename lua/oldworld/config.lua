@@ -21,6 +21,7 @@ local default_config = {
         lsp = true,
         markdown = true,
         mason = true,
+        mini = true,
         navic = false,
         neo_tree = false,
         neorg = false,
@@ -29,7 +30,9 @@ local default_config = {
         rainbow_delimiters = true,
         telescope = true,
         treesitter = true,
+        illuminate = true,
     },
+    highlight_overrides = {},
 }
 
 function config.setup(opts)
